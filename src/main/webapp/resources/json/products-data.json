@@ -1,0 +1,491 @@
+{
+  "products": [
+    {
+      "id": "computer_1",
+      "category": "Computer",
+      "brand": "Acer",
+      "name": "Aspire TC-1775-UR12 Desktop PC",
+      "description": "w/ Intel® Core™ i5-14400, 16GB DDR5 RAM, 512GB M.2 SSD, USB Keyboard + Mouse, Windows 11",
+      "price": 899.99,
+      "image": {
+        "src": "images/computer1.jpg",
+        "alt": "Acer Aspire TC-1775-UR12 Desktop PC image"
+      },
+      "specs": {
+        "ram": "16GB DDR5",
+        "hd": "512GB NVMe M.2 PCIe 4 x4 SSD",
+        "cpu": "Intel® Core™ i5-14400 2.5GHz 10 Core Processor w/ 6 Performance and 4 Efficiency Cores, 16 Threads, 4.7GHz Turbo, 20MB Smart Cache",
+        "gpu": "Intel® UHD Graphics 730",
+        "os": "Windows® 11 Home",
+        "audio": "Standard"
+      }
+    },
+    {
+      "id": "computer_2",
+      "category": "Computer",
+      "brand": "MSI",
+      "name": "Codex Z2 A8NUC-273US Gaming PC",
+      "description": "w/ GeForce RTX™ 4060, Ryzen™ 7 8700F, 16GB, 1TB SSD, Wi-Fi 6E, Win 11 Home, Gaming Keyboard & Mouse",
+      "price": 1599.99,
+      "image": {
+        "src": "images/computer2.jpg",
+        "alt": "MSI Codex Z2 A8NUC-273US Gaming PC image"
+      },
+      "specs": {
+        "ram": "16GB DDR5",
+        "hd": "1TB M.2 NVMe Gen4",
+        "cpu": "AMD Ryzen™ R7-8700F",
+        "gpu": "NVIDIA® GeForce RTX™ 4060 8GB GDDR6",
+        "os": "Windows® 11 Home",
+        "audio": "7.1 HD Audio"
+      }
+    },
+    {
+      "id": "computer_3",
+      "category": "Computer",
+      "brand": "Lenovo",
+      "name": "ThinkCentre Neo 50s PC",
+      "description": "w/ Core™ i5-13400, 16GB, 256GB M.2 SSD, Wi-Fi, BT, Windows 11 Pro",
+      "price": 1049.99,
+      "image": {
+        "src": "images/computer3.jpg",
+        "alt": "Lenovo ThinkCenter Neo 50s PC image"
+      },
+      "specs": {
+        "ram": "16GB DDR4",
+        "hd": "256GB SSD M.2 2280 PCIe® 4.0x4 NVMe® Opal 2.0",
+        "cpu": "Intel® Core™ i5-13400, 10C (6P + 4E) / 16T, P-core 2.5 / 4.6GHz, E-core 1.8 / 3.3GHz, 20MB",
+        "gpu": "Intel® HD Graphics",
+        "os": "Windows® 11 Pro",
+        "audio": "High Definition (HD) Audio"
+      }
+    },
+    {
+      "id": "computer_4",
+      "category": "Computer",
+      "brand": "Asus",
+      "name": "ROG Strix G13 G13CHR-DSI54060-CB PC",
+      "description": "w/ GeForce RTX™ 4060, Core™ i5-14400F, 32GB, 1TB NVMe SSD, Wi-Fi 6, BT 5.2, Windows 11 Home",
+      "price": 1799.99,
+      "image": {
+        "src": "images/computer4.jpg",
+        "alt": "Asus ROG Strix G13 G13CHR-DSI54060-CB PC image"
+      },
+      "specs": {
+        "ram": "32GB DDR5",
+        "hd": "1TB M.2 2280 PCIE G4 SSD",
+        "cpu": "Intel® Core™ i5-14400F Processor 2.5GHz (20M Cache, up to 4.7GHz, 10 cores)",
+        "gpu": "NVIDIA® GeForce RTX™ 4060 DUAL 8GB GDDR6",
+        "os": "Windows® 11 Home",
+        "audio": "High Definition 7.1 Channel Audio"
+      }
+    },
+    {
+      "id": "computer_5",
+      "category": "Computer",
+      "brand": "MSI",
+      "name": "Codex R2 B14NUE7-277CA",
+      "description": "w/ GeForce RTX™ 4070, Core™ i7-14700F, 32GB, 1TB SSD, Wi-Fi 7, Win 11 Home, Gaming Keyboard & Mouse",
+      "price": 2249.99,
+      "image": {
+        "src": "images/computer5.jpg",
+        "alt": "MSI Codex R2 B14NUE7-277CA PC image"
+      },
+      "specs": {
+        "ram": "32GB DDR5",
+        "hd": "1TB M.2 NVMe Gen4",
+        "cpu": "Intel® Core™ i7-14700F",
+        "gpu": "NVIDIA® GeForce RTX™ 4070 12GB GDDR6",
+        "os": "Windows® 11 Home",
+        "audio": "7.1 HD Audio"
+      }
+    },
+    {
+      "id": "computer_6",
+      "category": "Computer",
+      "brand": "MSI",
+      "name": "AEGIS Z2 A8NUE-1045US Gaming Desktop",
+      "description": "w/ GeForce RTX 4070, Ryzen™ 7 8700F, 32GB DDR5, 1TB SSD, Windows 11 Home, Keyboard & Mouse",
+      "price": 2049.99,
+      "image": {
+        "src": "images/computer6.jpg",
+        "alt": "MSI AEGIS Z2 A8NUE-1045US Gaming Desktop image"
+      },
+      "specs": {
+        "ram": "32GB DDR5",
+        "hd": "1x 1TB M.2 NVMe SSD",
+        "cpu": "AMD® Ryzen™ 7 8700F, 4.1GHz Octa Core",
+        "gpu": "NVIDIA® GeForce RTX™ 4070",
+        "os": "Windows® 11 Home",
+        "audio": "7.1-Channel High Definition Audio"
+      }
+    },
+    {
+      "id": "RAM_1",
+      "category": "RAM",
+      "brand": "Corsair",
+      "name": "Vengeance LPX",
+      "description": "32GB DDR4 3200MHz CL16 Dual Channel Kit (2x 16GB) RAM",
+      "price": 69.99,
+      "image": {
+        "src": "images/ram1.jpg",
+        "alt": "Corsair Vengeance LPX RAM image"
+      },
+      "specs": {
+        "capacity": "32GB",
+        "type": "DDR4 RAM",
+        "speed": "3200MHz"
+      }
+    },
+    {
+      "id": "RAM_2",
+      "category": "RAM",
+      "brand": "Teamgroup",
+      "name": "T-FORCE Vulcan",
+      "description": "DDR5 6000MHz CL30 XMP 3.0 Dual Channel RAM Kit (2 x 16GB) RAM",
+      "price": 159.99,
+      "image": {
+        "src": "images/ram2.jpg",
+        "alt": "Teamgroup T-FORCE Vulcan RAM image"
+      },
+      "specs": {
+        "capacity": "32GB",
+        "type": "DDR5 RAM",
+        "speed": "6000MHz"
+      }
+    },
+    {
+      "id": "RAM_3",
+      "category": "RAM",
+      "brand": "Kingston",
+      "name": "FURY Beast",
+      "description": "DDR5 6000MHz CL30 Dual Channel Kit (2 x 32GB) RAM",
+      "price": 299.99,
+      "image": {
+        "src": "images/ram3.jpg",
+        "alt": "Kingston FURY Beast RAM image"
+      },
+      "specs": {
+        "capacity": "64GB",
+        "type": "DDR5 Non-ECC Unbuffered",
+        "speed": "6000MHz"
+      }
+    },
+    {
+      "id": "HD_1",
+      "category": "HD",
+      "brand": "MSI",
+      "name": "Spatium",
+      "description": "M482 NVMe PCIe 4.0 M.2 SSD, 2TB SSD",
+      "price": 219.99,
+      "image": {
+        "src": "images/hd1.jpg",
+        "alt": "MSI Spatium M482 NVMe PCIe 4.0 M.2 SSD, 2TB SSD image"
+      },
+      "specs": {
+        "capacity": "2TB",
+        "form_factor": "M.2 2280",
+        "controller": "PHISON E27T"
+      }
+    },
+    {
+      "id": "HD_2",
+      "category": "HD",
+      "brand": "Samsung",
+      "name": "990 PRO",
+      "description": "PCIe 4.0 NVMe 2TB SSD",
+      "price": 349.99,
+      "image": {
+        "src": "images/hd2.jpg",
+        "alt": "Samsung 990 PRO PCIe 4.0 NVMe 2TB SSD image"
+      },
+      "specs": {
+        "capacity": "2TB",
+        "form_factor": "M.2 2280",
+        "controller": "Samsung in-house controller"
+      }
+    },
+    {
+      "id": "HD_3",
+      "category": "HD",
+      "brand": "Western Digital",
+      "name": "WD_BLACK SN850X",
+      "description": "NVMe M.2 PCI-E v4.0 x4 SSD, 4TB SSD",
+      "price": 449.99,
+      "image": {
+        "src": "images/hd3.jpg",
+        "alt": "NVMe M.2 PCI-E v4.0 x4 SSD, 4TB SSD image"
+      },
+      "specs": {
+        "capacity": "4TB",
+        "form_factor": "M.2 2280",
+        "controller": "SanDisk"
+      }
+    },
+    {
+      "id": "CPU_1",
+      "category": "CPU",
+      "brand": "AMD",
+      "name": "Ryzen™ 7 7700X Processor, 4.5GHz",
+      "description": "w/ 8 Cores / 16 Threads",
+      "price": 419.99,
+      "image": {
+        "src": "images/cpu1.jpg",
+        "alt": "AMD Ryzen™ 7 7700X Processor, 4.5GHz image"
+      },
+      "specs": {
+        "cores": "8",
+        "threads": "16",
+        "base_clock": "4.5GHz",
+        "boost_clock": "Up to 5.4GHz",
+        "memory_type": "DDR5"
+      }
+    },
+    {
+      "id": "CPU_2",
+      "category": "CPU",
+      "brand": "Intel",
+      "name": "Core™ i7-12700K Processor, 3.6GHz",
+      "description": "w/ 12 (8P + 4E) Cores / 20 Threads",
+      "price": 309.99,
+      "image": {
+        "src": "images/cpu2.jpg",
+        "alt": "Intel Core™ i7-12700K Processor, 3.6GHz image"
+      },
+      "specs": {
+        "cores": "12",
+        "threads": "20",
+        "base_clock": "P-core: 3.60 GHz E-core: 2.70 GHz",
+        "boost_clock": "Up to 5.0GHz",
+        "memory_type": "DDR5-4800 DDR4-3200"
+      }
+    },
+    {
+      "id": "CPU_3",
+      "category": "CPU",
+      "brand": "Intel",
+      "name": "Core™ i9-14900KF Processor",
+      "description": "w/ 24 (8P+16E) Cores / 32 Threads, up to 6.0 GHz",
+      "price": 629.99,
+      "image": {
+        "src": "images/cpu3.jpg",
+        "alt": "Core™ i9-14900KF Processor image"
+      },
+      "specs": {
+        "cores": "24",
+        "threads": "32",
+        "base_clock": "P-core: 3.20 GHz E-core: 2.40 GHz",
+        "boost_clock": "Up to 6.0GHz",
+        "memory_type": "DDR5-5600 DDR4-3200"
+      }
+    },
+    {
+      "id": "GPU_1",
+      "category": "GPU",
+      "brand": "Gigabyte",
+      "name": "GeForce RTX 4080 SUPER WINDFORCE V2 16G PCIe",
+      "description": "w/ HDMI, Triple DP, Anti Sag Bracket",
+      "price": 1399.99,
+      "image": {
+        "src": "images/gpu1.jpg",
+        "alt": "Gigabyte GeForce RTX 4080 SUPER WINDFORCE V2 16G PCIe GPU image"
+      },
+      "specs": {
+        "chipset": "NVIDIA® GeForce RTX™ 4080",
+        "cuda_cores": "10240",
+        "core_clock": "2550MHz",
+        "memory": "16GB GDDR6X"
+      }
+    },
+    {
+      "id": "GPU_2",
+      "category": "GPU",
+      "brand": "Gigabyte",
+      "name": "GeForce RTX 4060 Windforce OC 8GB PCI-E",
+      "description": "w/ Dual HDMI, Dual DP",
+      "price": 419.99,
+      "image": {
+        "src": "images/gpu2.jpg",
+        "alt": "Gigabyte GeForce RTX 4060 Windforce OC 8GB PCI-E GPU image"
+      },
+      "specs": {
+        "chipset": "Nvidia® GeForce® RTX® 4060",
+        "cuda_cores": "3072",
+        "core_clock": "2475MHz",
+        "memory": "8GB GDDR6"
+      }
+    },
+    {
+      "id": "GPU_3",
+      "category": "GPU",
+      "brand": "ASUS",
+      "name": "TUF Gaming Radeon RX 7900 XTX OC Edition",
+      "description": "24G PCI-E w/ Triple DP, HDMI",
+      "price": 1259.99,
+      "image": {
+        "src": "images/gpu3.jpg",
+        "alt": "TUF Gaming Radeon RX 7900 XTX OC Edition GPU image"
+      },
+      "specs": {
+        "chipset": "AMD RDNA 3",
+        "core_clock": "2565MHz - 2615MHz OC",
+        "memory": "24GB GDDR6"
+      }
+    },
+    {
+      "id": "OS_1",
+      "category": "OS",
+      "brand": "Microsoft",
+      "name": "Windows 11 Pro",
+      "description": "Latest version of Windows",
+      "price": 199.99,
+      "image": {
+        "src": "images/os1.jpg",
+        "alt": "Windows 11 Pro OS image"
+      },
+      "specs": {
+        "version": "11 Pro",
+        "architecture": "64-bit",
+        "min_ram": "4GB",
+        "min_storage": "64GB"
+      }
+    },
+    {
+      "id": "OS_2",
+      "category": "OS",
+      "brand": "Ubuntu",
+      "name": "Ubuntu 22.04 LTS",
+      "description": "Long-term support release of Linux distribution",
+      "price": 0.0,
+      "image": {
+        "src": "images/os2.jpg",
+        "alt": "Ubuntu 22.04 LTS OS image"
+      },
+      "specs": {
+        "version": "22.04 LTS",
+        "kernel": "5.15",
+        "min_ram": "4GB",
+        "min_storage": "25GB"
+      }
+    },
+    {
+      "id": "OS_3",
+      "category": "OS",
+      "brand": "",
+      "name": "ReactOS",
+      "description": "An open-source Windows environment you can trust!",
+      "price": 0.0,
+      "image": {
+        "src": "images/os3.jpg",
+        "alt": "ReactOS image"
+      },
+      "specs": {
+        "version": "0.4.14",
+        "min_ram": "256MB",
+        "min_storage": "450MB"
+      }
+    },
+    {
+      "id": "audio_1",
+      "category": "Audio",
+      "brand": "Creative Labs",
+      "name": "Sound Blaster Audigy RX PCI-E 7.1 Sound Card",
+      "description": "w/ an SNR of 106dB, a 600-ohm headphone amp for studio monitoring, and a customization software suite",
+      "price": 99.99,
+      "image": {
+        "src": "images/audio1.jpg",
+        "alt": "Creative Labs Sound Blaster Audigy RX PCI-E 7.1 Sound Card image"
+      },
+      "specs": {
+        "snr_ratio": "106dB",
+        "processor": "Creative E-MU"
+      }
+    },
+    {
+      "id": "audio_2",
+      "category": "Audio",
+      "brand": "Asus",
+      "name": "Xonar AE 7.1 PCI-E Gaming Audio Card",
+      "description": "w/ 7.1-channel, 192kHz/24-bit Hi-Res audio output with a high 110dB signal-to-noise ratio (SNR)",
+      "price": 119.99,
+      "image": {
+        "src": "images/audio2.jpg",
+        "alt": "Asus Xonar AE 7.1 PCI-E Gaming Audio Card image"
+      },
+      "specs": {
+        "snr_ratio": "110dB",
+        "processor": "C-Media USB2.0 6632AE High-Definition Sound"
+      }
+    },
+    {
+      "id": "audio_3",
+      "category": "Audio",
+      "brand": "Asus",
+      "name": "Xonar SE 5.1 Channel PCIe Sound Card",
+      "description": "w/ Realtek S1220A DAC",
+      "price": 79.99,
+      "image": {
+        "src": "images/audio3.jpg",
+        "alt": "Xonar SE 5.1 Channel PCIe Sound Card image"
+      },
+      "specs": {
+        "snr_ratio": "110dB",
+        "processor": "C-Media USB2.0 6620A HD Sound Processor"
+      }
+    },
+    {
+      "id": "monitor_1",
+      "category": "Monitor",
+      "brand": "MSI",
+      "name": "G272QPF E2 27in IPS QHD Gaming Monitor",
+      "description": "w/ 180Hz, 1ms, 16:9, Adaptive Sync, Black",
+      "price": 319.99,
+      "image": {
+        "src": "images/monitor1.jpg",
+        "alt": "MSI G272QPF E2 27in IPS QHD Gaming Monitor image"
+      },
+      "specs": {
+        "screen_size": "27 in.",
+        "resolution": "2560 x 1440",
+        "aspect_ratio": "16:9",
+        "refresh_rate": "180Hz"
+      }
+    },
+    {
+      "id": "monitor_2",
+      "category": "Monitor",
+      "brand": "ASUS",
+      "name": "VA24EHE 23.8in IPS LCD LED Widescreen Monitor",
+      "description": "w/ HDMI, DVI-D, D-Sub VGA",
+      "price": 169.99,
+      "image": {
+        "src": "images/monitor2.jpg",
+        "alt": "ASUS VA24EHE 23.8in IPS LCD LED Widescreen Monitor image"
+      },
+      "specs": {
+        "screen_size": "23.8 in.",
+        "resolution": "1920 x 1080",
+        "aspect_ratio": "16:9",
+        "refresh_rate": "75Hz"
+      }
+    },
+    {
+      "id": "monitor_3",
+      "category": "Monitor",
+      "brand": "Gigabyte",
+      "name": "M32QC 32in VA Curved Gaming Monitor QHD",
+      "description": "w/ 165Hz, 1ms, AMD FreeSync Premium Pro, Type C KVM, Dual HDMI, DP, USB Type-C, Black",
+      "price": 579.99,
+      "image": {
+        "src": "images/monitor3.jpg",
+        "alt": "M32QC 32in VA Curved Gaming Monitor QHD Monitor image"
+      },
+      "specs": {
+        "screen_size": "31.5 in.",
+        "resolution": "2560 x 1440",
+        "aspect_ratio": "16:9",
+        "refresh_rate": "165Hz/OC 170Hz"
+      }
+    }
+  ]
+}

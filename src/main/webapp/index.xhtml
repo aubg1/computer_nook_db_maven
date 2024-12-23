@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    
+<h:head>
+    <title>Computer Nook</title>
+    <h:outputStylesheet name="css/styles.css"/>
+</h:head>
+    
+<h:body>
+    <header id="top-bar">
+        <div id="logo">Computer Nook</div>
+        <div id="btn-container">
+            <button id="register-btn" class="btn register-sign-btn" onclick="renderRegistration()">Register</button>
+            <button id="sign-in-btn" class="btn register-sign-btn" onclick="renderSignIn()">Sign In</button>
+        </div>
+    </header>
+    
+    <!-- Container for nav and content area -->
+    <main id="main-container">
+        <nav id="nav">
+            <button id="home-btn" class="nav-item active-nav-item" onclick="renderHome()">Home</button>
+            <button id="store-btn" class="nav-item" onclick="renderStore()">Store</button>
+            <button id="cart-btn" class="nav-item" onclick="renderCart()">
+                <span>Cart</span>
+                <div id="cart-count">0</div>
+                <div id="nav-cart-total">$0.00</div>
+            </button>
+        </nav>
+        
+        <div id="content">
+            <div id="welcome">
+                <p id="welcome-title">Welcome to <span class="red">Computer Nook</span>!</p>
+                <p id="welcome-msg">Access the Computer Nook store and cart using the navigation menu on the left.</p>
+                <p id="welcome-msg">The store features various computer components and computers with customizable configurations.</p>
+            </div>
+            <div id="inner-content"></div>
+        </div>
+    </main>
+    
+    <h:outputScript name="js/script.js"/>
+    
+</h:body>
+</html>

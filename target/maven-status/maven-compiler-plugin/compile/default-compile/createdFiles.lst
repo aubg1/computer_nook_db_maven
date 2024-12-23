@@ -1,0 +1,11 @@
+com\aubg1\computernookdb\JakartaRestConfiguration.class
+com\aubg1\computernookdb\Products.class
+com\aubg1\computernookdb\service\ProductsFacadeREST.class
+com\aubg1\computernookdb\service\AbstractFacade.class
+com\aubg1\computernookdb\Users.class
+com\aubg1\computernookdb\service\OrdersFacadeREST.class
+com\aubg1\computernookdb\service\UsersFacadeREST.class
+com\aubg1\computernookdb\resources\JakartaEE10Resource.class
+com\aubg1\computernookdb\Orders.class
+com\aubg1\computernookdb\service\ReviewsFacadeREST.class
+com\aubg1\computernookdb\Reviews.class
